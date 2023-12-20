@@ -28,12 +28,13 @@ nav{
 }
 
 .logoimg{
-    height: 8vh;
+    height: 7.8vh;
     width: 8vw;
     /* border: 2px solid black; */
     object-fit: cover;
     animation: imganimation 3s infinite ;
     /* background-color: red; */
+    mix-blend-mode: multiply;
 
 }
 
@@ -161,6 +162,7 @@ span{
 .specs:hover{
     animation: specsanimation 3s;
     cursor: pointer;
+
     
 }
 
