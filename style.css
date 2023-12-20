@@ -12,7 +12,7 @@ html,body{
 .pg1{
     height: 100vh;
     width: 100%;
-    background-color: pink;
+    /* background-color: pink; */
     display: flex;
 }
 
@@ -30,7 +30,7 @@ nav{
 img{
     height: 8vh;
     width: 8vw;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     object-fit: cover;
 }
 
@@ -47,14 +47,19 @@ li{
      margin: 0 1vmax;
      font-weight: bold;
 }
-
+li:hover{
+    color: rgb(20, 176, 203);
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
 .btn1, .btn2{
     padding: 0.6vmax 1.4vmax;
     font-size: 1.3vmax;
     font-weight: bold;
     border-radius: 0.3vmax;
     border: none;
-    background-color: lightblue;
+    background-color: rgb(141, 214, 238);
 }
 
 .btn1:hover, .btn2:hover{
@@ -76,10 +81,10 @@ li{
 .box1{
     height: 38vh;
     width: 90%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     position: absolute;
     z-index: 999;
-    margin-top: 7vmax;
+    margin-top: 6vmax;
     margin-left: 5vmax;
     display: flex;
     align-items: center;
@@ -98,4 +103,66 @@ span{
 
 .sp3{
     color: rgb(20, 176, 203);
+}
+
+.box2{
+    height: 46vh;
+    width: 60%;
+    /* border: 2px solid black; */
+    position: absolute;
+    z-index: 999;
+    margin-top: 23vmax;
+    margin-left: 20vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0 2vmax;
+}
+
+.box2-head{
+    height: 20vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.specs{
+    height: 20vh;
+    width: 25vw;
+}
+
+.box2-head >h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4vmax;
+    text-align: center;
+   
+}
+.box2 >p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.2vmax;
+text-align: center;
+width: 70%;
+margin-top: 0.2vmax;
+}
+
+.btn3{
+    padding: 0.8vmax 1.6vmax;
+    font-size: 1.3vmax;
+    font-weight: bold;
+    border-radius: 0.4vmax;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 0.7vmax;
+
+}
+
+.btn3:hover{
+    background:linear-gradient(to top, rgb(20, 176, 203), white);
+    cursor: pointer;
+    border: 2px solid black;
+    color: black;
 }
