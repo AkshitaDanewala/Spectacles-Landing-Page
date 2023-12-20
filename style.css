@@ -33,6 +33,7 @@ nav{
     /* border: 2px solid black; */
     object-fit: cover;
     animation: imganimation 3s infinite ;
+    /* background-color: red; */
 
 }
 
@@ -152,10 +153,10 @@ span{
 }
 
 .specs{
-    /* height: 20vh;
-    width: 25vw; */
-    height: 50vh;
-    width: 25vw;
+    height: 18vh;
+    width: 19vw;
+    mix-blend-mode: multiply;
+    /* background-color: red; */
 }
 .specs:hover{
     animation: specsanimation 3s;
